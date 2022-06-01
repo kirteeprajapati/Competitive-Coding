@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
     int n, m;
@@ -10,11 +11,11 @@ int main()
         cin >> s[i];
     }
     sort(s, s + m);
-    int min = s[m - 1] - s[0];
-    for (int i = 1; i <= m - n; i++)
+    int min = s[n - 1] - s[0];
+    for (int j = 1; j <= m - n; j++)
     {
-        if (s[i + n - 1] - s[i] < min)
-            min = s[i + n - 1] - s[i];
+        if (s[j + n - 1] - s[j] < min)
+            min = s[j + n - 1] - s[j];
     }
     cout << min << endl;
     return 0;
