@@ -24,6 +24,6 @@ int main()
             cout << evenIndex << endl;
         else 
             cout << "-1\n";
-    }
+    } 
     return 0;
 }
