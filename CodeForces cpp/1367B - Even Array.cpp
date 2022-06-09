@@ -22,7 +22,7 @@ int main()
         }
         if (evenIndex == oddIndex)
             cout << evenIndex << endl;
-        else
+        else 
             cout << "-1\n";
     }
     return 0;
