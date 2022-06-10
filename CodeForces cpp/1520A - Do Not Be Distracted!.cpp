@@ -19,7 +19,7 @@ int main()
             {
                 flag = 0;
                 break;
-            }
+            } 
         }
         if (flag == 1)
             cout << "YES\n";
