@@ -8,7 +8,7 @@ int main()
     cin >> t;
     while (t--)
     {
-        int n;
+        long long int n;
         cin >> n;
         double final = log(n + 1) / log(2);
         for (int k = 2; k < final + 1; k++)
