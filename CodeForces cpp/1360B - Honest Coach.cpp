@@ -19,4 +19,4 @@ int main()
         cout << diff[0] << endl;
     }
     return 0;
-}
+} 
