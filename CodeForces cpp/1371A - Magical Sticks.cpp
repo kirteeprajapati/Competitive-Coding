@@ -12,7 +12,7 @@ int main()
         int n;
         cin >> n;
         if (n % 2)
-            cout << (n + 1) / 2 << endl;
+            cout << (n +  1) / 2 << endl;
         else
             cout << n / 2 << endl;
     }
