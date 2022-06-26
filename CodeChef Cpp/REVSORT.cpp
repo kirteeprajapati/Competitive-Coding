@@ -8,20 +8,22 @@ int main()
     cin >> t;
     while (t--)
     {
-        int b = 1, x;
-        cin >> x;
-        long long int A[x];
-        for (int i = 0; i < x; i++)
+        int b = 1, x, n;
+        cin >> n >> x;
+        long long int A[n];
+        for (int i = 0; i < n; i++)
             cin >> A[i];
-        for (int i = 1; i < x; i++)
+        for (int i = 0; i < n - 1; i++)
         {
-            if (A[i] < A[i - 1] && A[i] + A[i - 1] <= X)
-                swap(A[i], A[i - 1]);
-            else
-            {
-                b = 0;
-                break;
-            }
+            if (A[i] > A[i + 1])
+                if (A[i] + A[i + 1] <= x)
+                    swap(A[i], A[i + 1]);
+
+                else
+                {
+                    b = 0;
+                    break;
+                }
         }
         if (b)
             cout << "YES\n";
