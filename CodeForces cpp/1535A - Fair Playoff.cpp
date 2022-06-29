@@ -24,7 +24,7 @@ void solve()
     if (x == a[3] and y == a[2])
         puts("YES");
     else
-        puts("NO");
+        puts("NO"); 
 }
 
 int main()
