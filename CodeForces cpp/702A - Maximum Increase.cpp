@@ -22,3 +22,11 @@ int main()
     cout << ++mlen;
     return 0;
 }
+
+n=8
+2
+1
+4
+3
+6
+5
